@@ -1,1 +1,36 @@
+# OS / editor junk
 .DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Secrets and keys — never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.pub
+credentials.json
+secrets.*
+*.secret
+
+# Private working notes / raw recon — keep out of a public repo
+*-recon-notes.md
+*-working.md
+*-prep.md
+scratch/
+private/
+notes/
+
+# Security tool outputs (may contain target data)
+*.har
+*.burp
+*.nessus
+nuclei-output*
+httpx-output*
+subfinder-output*
